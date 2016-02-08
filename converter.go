@@ -1,6 +1,6 @@
 // To run:
 // go get github.com/githubnemo/CompileDaemon
-// CompileDaemon -command="./service2"
+// CompileDaemon -command="./gervice"
 
 package main
 
@@ -135,5 +135,5 @@ func main() {
       users := DB.Find(&[]User{})
       c.JSON(200, users)
     })
-    r.Run(":3333") // listen and server on 0.0.0.0:8080
+    r.Run(":3333") // listen and server on 0.0.0.0:3333
 }
