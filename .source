@@ -1,0 +1,6 @@
+export GODIR=/usr/local
+export GOROOT=$GODIR/go
+export GOOS=linux
+export GOPATH=$HOME/projects/gervice
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
