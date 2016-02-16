@@ -9,6 +9,7 @@ The objective of this project is to offer a fast and simple way to create Restfu
 1. In repository folder start the development server with:
 
   ```
+  $ go get
   $ go get github.com/githubnemo/CompileDaemon
   $ CompileDaemon -command="./gervice"
   ```
